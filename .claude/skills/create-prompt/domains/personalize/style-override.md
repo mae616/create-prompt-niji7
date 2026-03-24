@@ -21,35 +21,44 @@
 
 ### 線の扱い（共通カプセルからの調整）
 - 共通カプセル（art-style.md）の線質ルールを基本的に維持する
-- 線は鉛筆で軽く描かれたような、柔らかく控えめな質感（共通と同じ）
-- 線の太さや濃さに小さなばらつきを含める（共通と同じ）
 - 純黒禁止（共通と同じ）
-- 以下の点のみ共通と異なる：
-  - 輪郭が部分的に途切れることを許容する（ただし主役の形状が読めなくなるほどの途切れは禁止）
-  - 線が色面に溶け込む度合いがやや強い
-- **以下は禁止（共通より厳しい制約）：**
+- **パーソナライズ版の線の方向性：繊細で丁寧なペン画的質感**
+  - 線は細く、繊細で、制御された筆致を基本とする
+  - 細いペンや硬めの鉛筆で丁寧に描かれたような、落ち着いた線質
+  - 線の太さにわずかな強弱はあるが、荒れや遊びは最小限に抑える
+  - 髪の流れ、衣装の折り目、指の輪郭など、構造を伝える線は省略しすぎない
+  - 線が色面に部分的に溶け込むことは許容するが、主要な構造線は視認できる状態を保つ
+  - 線の途切れは背景や衣装の末端など重要度の低い箇所に限定する
+- **以下は禁止：**
   - 線が荒ぶる、走り書きのような勢いのある線は禁止
+  - 線が太くなりすぎる、ラフスケッチ的な筆致は禁止
   - 線が完全に消えて形状が判別できなくなる箇所は禁止
   - 顔・手・衣装の構造線が省略されすぎて記号化することを禁止
 
 ### 色面と塗り
-- 塗りは均一にせず、ムラ・にじみ・濃淡差を残す
-- 色の境界がやや曖昧に混ざる
+- 水彩的な透明感と柔らかいにじみを基本とするが、にじみは上品に制御する
+- 塗りは均一にせず濃淡差を残すが、色が大きく流れ出す・飛び散る表現は避ける
 - 単色ベタ塗り禁止
-- 水彩/インク的な「紙に染み込む」質感を基本とする
 - 油絵的な不透明の重ねは控えめに（共通カプセルの「水彩×油絵ハイブリッド」より水彩寄り）
-- **ただし色面だけで形が崩壊しないこと：**
-  - 衣装や髪は省略しても、形の大枠が色面として読める状態を維持する
+- **にじみの制御（重要）：**
+  - にじみ・色の飛沫は背景や余白に留め、キャラクター本体の形を崩さない
+  - キャラクター内部の塗りは、形に沿った丁寧な着彩を基本とする
+  - 衣装や髪の形の中で色がはみ出しすぎない
   - 色が流れすぎて何を描いているか分からなくなる状態は禁止
 
-### 密度差（共通カプセルより差をつける）
+### 密度差（共通カプセルより差をつけるが、丁寧さを維持）
 - 顔周辺は高密度で明確に描写する
-- 髪は束ではなく塊で処理する（ただし塊の境界は色の変化で読める程度に維持）
-- 衣装は細部省略、面で扱う（ただし衣装の構造・層は読み取れる程度に維持）
+- **髪は束の流れ・毛先のカーブが読める程度の描写を維持する**
+  - 色の塊ではなく、柔らかい束が重なり合う構成
+  - 束の境界は線と色の両方で示してよい
+- **衣装は折り目・構造が読める程度の線と色面を維持する**
+  - 完全な面の省略ではなく、折り目や重なりの線が柔らかく存在する
+  - 衣装の端・裾に向かって徐々に情報を落とす
 - 背景は物体として描かず、色面の重なりとして扱う
 - **密度差は「グラデーション的に」つける：**
   - 顔 → 髪・上半身 → 衣装の裾・手先 → 背景 の順で密度を落とす
   - どの部分でも急に「何も描かれていない」状態にはしない
+  - 密度を落とすとは「線を荒くする」ことではなく「描く要素を減らす」こと
 
 ### 入力情報の削減
 - 入力はそのまま再現せず再構成する
@@ -60,9 +69,9 @@
   - 衣装の層構造は最低2層が識別できる状態を維持する
 
 ## キーワード
-- 推奨: soft watercolor washes, gentle ink edges, paper texture showing through, delicate linework with occasional gaps, controlled color bleeding
-- 回避: thick impasto, heavy oil paint texture, fully rendered, rough sketch lines, scribbled linework, chaotic brushwork
+- 推奨: fine delicate linework, thin controlled pen-like strokes, gentle watercolor washes, refined illustration quality, hair strands with soft flowing curves, carefully rendered facial features, neat clothing folds with soft lines, paper texture showing through in background
+- 回避: thick impasto, heavy oil paint texture, fully rendered, rough sketch lines, scribbled linework, chaotic brushwork, loose messy lines, aggressive color bleeding over character forms
 
 ## 例
-- 良い例: "soft watercolor washes with gentle paper texture, delicate pencil-like lines with small natural gaps at non-critical edges, face and upper body rendered with clear detail gradually softening toward periphery"
-- 悪い例: "rough sketch lines with aggressive gaps"（荒すぎる）、"loose scribble-like linework"（走り書き）
+- 良い例: "fine delicate linework with thin controlled strokes, hair rendered as soft flowing strands with gentle curves, facial features carefully defined with refined detail, clothing folds drawn with light precise lines, gentle watercolor washes contained within forms, color bleeding limited to background and edges"
+- 悪い例: "rough sketch lines with aggressive gaps"（荒すぎる）、"loose scribble-like linework"（走り書き）、"hair as abstract color masses"（髪が塊すぎる）
