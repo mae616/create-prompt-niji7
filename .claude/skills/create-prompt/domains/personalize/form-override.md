@@ -27,14 +27,21 @@
 - デフォルメが強くても、上記の顔の成立条件は絶対に崩さない
 
 ### 造形の方向性
-- 共通カプセルの「漫画と絵画の中間」を維持しつつ、
-  よりカジュアルでラフなスケッチ感を許容する
-- 「挿絵的バランス」→「落書き帳のスケッチ〜挿絵」まで幅を広げる
+- 共通カプセルの「漫画と絵画の中間」を維持する
+- 低頭身であっても「丁寧に描かれた挿絵」の品質を目指す
+- 「ラフなスケッチ」「落書き」の方向には寄せすぎない
+- 手足の省略は許容するが、存在が読み取れる程度に色面で示す
+
+### 記号化の防止（重要）
+- 顔パーツ（目・鼻・口）は色相差と明度差で成立させる（共通のface-expressionに従う）
+- 手が丸い塊になりすぎないこと（指の存在がわずかに読み取れる程度の描写を維持）
+- 衣装が単なる色の塊にならないこと（層構造や素材の違いが最低限読み取れる）
+- 体のパーツの境界（腕・胴体・脚）が色面の区別で認識できること
 
 ## キーワード
-- 許容: compact proportions, oversized head ratio, sketch-like figure construction
-- 維持: face readable as continuous surface of eyes cheeks chin and neck
-- 禁止: symbolic dot-eyes, emoticon-like expressions
+- 許容: compact proportions, oversized head ratio, illustration-quality figure
+- 維持: face readable as continuous surface of eyes cheeks chin and neck, clothing layers distinguishable, limbs recognizable
+- 禁止: symbolic dot-eyes, emoticon-like expressions, amorphous body mass, scribble-like simplification
 
 ## 例
 - 良い例: "a small figure with compact 2.5-head proportions, face clearly readable with gentle color-defined features despite simplified body"
