@@ -69,8 +69,8 @@
   - 衣装の層構造は最低2層が識別できる状態を維持する
 
 ## キーワード
-- 推奨: fine delicate linework, thin controlled pen-like strokes, gentle watercolor washes, refined illustration quality, hair strands with soft flowing curves, carefully rendered facial features, neat clothing folds with soft lines, paper texture showing through in background
-- 回避: thick impasto, heavy oil paint texture, fully rendered, rough sketch lines, scribbled linework, chaotic brushwork, loose messy lines, aggressive color bleeding over character forms
+- 推奨: fine delicate linework, thin controlled pen-like strokes, gentle watercolor washes, refined illustration quality, hair strands with soft flowing curves, carefully rendered facial features, neat clothing folds with soft lines, white space as unpainted area in background
+- 回避: thick impasto, heavy oil paint texture, fully rendered, rough sketch lines, scribbled linework, chaotic brushwork, loose messy lines, aggressive color bleeding over character forms, paper texture, paper grain, textured paper
 
 ## 例
 - 良い例: "fine delicate linework with thin controlled strokes, hair rendered as soft flowing strands with gentle curves, facial features carefully defined with refined detail, clothing folds drawn with light precise lines, gentle watercolor washes contained within forms, color bleeding limited to background and edges"

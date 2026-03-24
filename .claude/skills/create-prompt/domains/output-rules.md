@@ -87,6 +87,10 @@
 - 写真、写実、フォトリアルな描写は明確に避ける
 - すべての出力は「最初から描かれたイラスト」として成立させる
 - 写真由来の質感、均一で滑らかな表面、過度に完成されたデジタル処理は使用しない
+- **紙・キャンバスの物理的質感（紙目・ざらつき・繊維感）は出さない**
+  - 水彩のにじみや色の染み・流れなど「色の効果」は使ってよい
+  - ただし紙そのものの表面テクスチャが見える状態にはしない
+  - あくまでデジタルイラストとして成立させる
 
 ### メモリ・慣性対策
 新規生成時は以下を適用：
@@ -102,7 +106,7 @@
 - 技法や表現が前面に出すぎていないか
 
 ## キーワード
-- 使用禁止: photo, realistic, photorealistic, hyper-realistic, 3D render, digital art（単体）
+- 使用禁止: photo, realistic, photorealistic, hyper-realistic, 3D render, digital art（単体）, paper texture, paper grain, textured paper, canvas texture
 - 推奨: illustration, painted, drawn, depicted
 - 必須末尾: no photorealism, no heavy outlines, no pure black lines, no uniform digital shading
 

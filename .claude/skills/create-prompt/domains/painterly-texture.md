@@ -58,7 +58,7 @@
 - gouache painting, visually interpreted as matte opaque pigment layers with visible brush drag
 - mineral pigment ink wash, visually interpreted as granulating particles and uneven absorption
 - oil pastel, visually interpreted as waxy pigment buildup with edge breakage
-- dry pigment on textured paper, visually interpreted as powdery edge diffusion
+- dry pigment wash, visually interpreted as powdery edge diffusion
 
 禁止：
 - "digital art" 単体使用
@@ -77,10 +77,10 @@
 
 ## キーワード
 - 質感系: visible brushstrokes, watercolor bleeding, paint texture, uneven pigment
-- 画材系: gouache, mineral pigment ink wash, oil pastel, dry pigment on textured paper
+- 画材系: gouache, mineral pigment ink wash, oil pastel, dry pigment wash
 - 技法系: scumbling, wet-on-dry layering, broken color layering
-- 回避: digital art（単体）, smooth rendering, airbrushed, clean finish
+- 回避: digital art（単体）, smooth rendering, airbrushed, clean finish, paper texture, paper grain, textured paper, canvas texture（紙・キャンバスの物理的質感は出さない）
 
 ## 例
-- 良い例: "gouache painting, visually interpreted as matte opaque pigment layers with visible brush drag, scumbling, defined as semi-dry pigment dragged across subtle paper grain"
+- 良い例: "gouache painting, visually interpreted as matte opaque pigment layers with visible brush drag, scumbling, defined as semi-dry pigment dragged across underlying color layer"
 - 悪い例: "digital painting"（具体性なし）、"smooth airbrushed render"（均一デジタル処理）

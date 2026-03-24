@@ -14,9 +14,10 @@
 
 ### 白背景の扱い（共通カプセルからの変更）
 - 共通カプセルでは「白背景禁止」だが、パーソナライズ版では以下を許容する：
-  - **紙の地**として白が大きく残ることを許容する
-  - ただし「白い壁」「白い空間」としてではなく、「塗り残された紙の地」として扱う
-  - 色面が浮遊するように存在し、紙の地がその間を埋める構成
+  - **塗り残された白い余白**として白が大きく残ることを許容する
+  - ただし「白い壁」「白い空間」としてではなく、「意図的に塗り残された余白」として扱う
+  - 色面が浮遊するように存在し、白い余白がその間を埋める構成
+  - ただし紙の物理的質感（紙目・ざらつき・繊維感）は出さない
 - 白背景＝「何も描かなかった」ではなく「描かないことを選んだ余白」として解釈する
 
 ### 背景の構成
@@ -37,13 +38,13 @@
 
 ### 色相バランス（共通からの調整）
 - 共通カプセルの面積比ルール（主色60%/副色25%/アクセント10-15%）は目安として維持
-- ただしパーソナライズ版では「紙の地（白）」が大きな面積を占めることを許容する
+- ただしパーソナライズ版では白い余白が大きな面積を占めることを許容する
 - 色面の面積が少なくても、存在感のある色なら成立する
 
 ## キーワード
-- 推奨: paper ground showing through, floating color planes, watercolor stains on white, selective rendering
-- 回避: photographically blurred background, detailed environmental rendering, white wall, white room
+- 推奨: white unpainted area showing through, floating color planes, watercolor stains on white, selective rendering
+- 回避: photographically blurred background, detailed environmental rendering, white wall, white room, paper texture, paper grain, textured paper
 
 ## 例
-- 良い例: "sparse watercolor stains floating on exposed paper ground, background existing only as faint color washes"
+- 良い例: "sparse watercolor stains floating on white unpainted area, background existing only as faint color washes"
 - 悪い例: "detailed background with depth"（背景の高密度描写）
