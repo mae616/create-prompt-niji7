@@ -5,9 +5,10 @@
   "customizations": {
     "vscode": {
       "extensions": [
-        "dbaeumer.vscode-eslint"
+        "dbaeumer.vscode-eslint",
+        "anthropic.claude-code"
       ]
     }
   },
-  "postCreateCommand": "node --version"
+  "postCreateCommand": "npm install -g @anthropic-ai/claude-code && claude --version"
 }
