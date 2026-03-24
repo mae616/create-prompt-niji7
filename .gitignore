@@ -1,3 +1,7 @@
 node_modules/
 .env
 *.log
+
+# プロンプト履歴（ローカルのみ）
+prompts/history/*.md
+!prompts/history/_template.md
