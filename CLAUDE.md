@@ -33,6 +33,9 @@ niji journey用プロンプト生成プロジェクト。
 │       │           └── form-override.md     # 低頭身・ちびキャラ許容
 │       └── create-prompt-p/
 │           └── SKILL.md               # パーソナライズ版スキル
+├── characters/                        # キャラクター設定
+│   ├── _template.md                   # テンプレート
+│   └── {名前}.md                      # 各キャラの外見設定
 ├── prompts/
 │   ├── history/                       # プロンプト履歴（会話ログ兼ワークシート）
 │   │   ├── _template.md              # 履歴テンプレート
