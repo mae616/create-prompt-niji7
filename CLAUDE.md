@@ -14,19 +14,25 @@ niji journey用プロンプト生成プロジェクト。
 ├── .claude/
 │   ├── settings.json
 │   └── skills/
-│       └── create-prompt/
-│           ├── SKILL.md               # プロンプト生成スキル本体
-│           └── domains/               # ドメインカプセル（9種）
-│               ├── _template.md       # カプセルテンプレート
-│               ├── output-rules.md    # [10] 合成最上位ルール
-│               ├── face-expression.md # [9]  顔・表情・目元
-│               ├── art-style.md       # [8]  画風・線質・色面構造
-│               ├── character-form.md  # [8]  造形・絵柄ポジション
-│               ├── coloring.md        # [7]  色彩・配色・影色
-│               ├── painterly-texture.md # [7] 絵画的質感・画材
-│               ├── composition.md     # [5]  情報密度・視線誘導
-│               ├── character.md       # [4]  キャラ外観基礎
-│               └── world-setting.md   # [3]  世界観・環境
+│       ├── create-prompt/
+│       │   ├── SKILL.md               # プロンプト生成スキル本体
+│       │   └── domains/               # ドメインカプセル（9種）
+│       │       ├── _template.md       # カプセルテンプレート
+│       │       ├── output-rules.md    # [10] 合成最上位ルール
+│       │       ├── face-expression.md # [9]  顔・表情・目元
+│       │       ├── art-style.md       # [8]  画風・線質・色面構造
+│       │       ├── character-form.md  # [8]  造形・絵柄ポジション
+│       │       ├── coloring.md        # [7]  色彩・配色・影色
+│       │       ├── painterly-texture.md # [7] 絵画的質感・画材
+│       │       ├── composition.md     # [5]  情報密度・視線誘導
+│       │       ├── character.md       # [4]  キャラ外観基礎
+│       │       ├── world-setting.md   # [3]  世界観・環境
+│       │       └── personalize/       # パーソナライズ版 差分カプセル
+│       │           ├── style-override.md    # 画風→水彩/インク寄り
+│       │           ├── coloring-override.md # 紙の地許容、背景色面のみ
+│       │           └── form-override.md     # 低頭身・ちびキャラ許容
+│       └── create-prompt-p/
+│           └── SKILL.md               # パーソナライズ版スキル
 ├── prompts/
 │   ├── history/                       # プロンプト履歴（会話ログ兼ワークシート）
 │   │   ├── _template.md              # 履歴テンプレート
@@ -36,7 +42,8 @@ niji journey用プロンプト生成プロジェクト。
 ```
 
 ## ワークフロー
-1. `/create-prompt {描きたいもの}` を実行
+1. `/create-prompt {描きたいもの}` を実行（非パーソナライズ版）
+   `/create-prompt-p {描きたいもの}` を実行（パーソナライズ版）
 2. 履歴ファイルが `prompts/history/` に自動作成される
 3. 英語/日本語プロンプトが画面表示＋履歴ファイルに記録（v1）
 4. 「修正して」「もっと研ぎ澄ましたい」→ 修正版がv2, v3...と追記される
